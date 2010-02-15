@@ -1,13 +1,32 @@
-= google_links
+= redmine_google_links
 
-*Description*: This plugins adds two macros ('gmail' and 'gdoc') to your Redmine Wiki. 
+DESCRIPTION
 
-== Examples
+This plugins adds two macros ('gmail' and 'gdoc') to your Redmine Wiki.
 
-*Example 1:* {{gmail("Mike's Dirthday")}} will insert a link to GMail search results page for "Mike's Birthday" query string. 
 
-*Example 2:* {{gdoc("Budget")}} - does the same for Google Docs.
+USAGE EXAMPLES
 
-*Note:* the links in the examples above will work just like if you type the words "Budget" or "Mike's Birthday" in GMail/GDoc search field. Pros: everyone who has received the e-mail or has access to the doc can open the link. Cons: you may have several documents with the word "Budget" in the title.
+{{gmail("Mike's Dirthday")}} will insert a link to GMail search results page for "Mike's Birthday" query string. 
 
+Similar, type {{idoc("Budget")}} to insert a link to a Google Docs named "Budget".
+
+
+INSTALLATION
+
+Put 'redmine_google_links' directory under your vendor/plugins directory. No need to run db:migrate_plugins script.
+
+cd <redmine>/vendor/plugins
+git clone http://github.com/vovayartsev/redmine_google_links.git
+
+
+BUGS & IMPROVEMENTS
+
+Found a bug? Create a ticket here: http://github.com/vovayartsev/redmine_google_links/issues
+
+
+AUTHOR
+
+Vladimir Yartsev
+vovayartsev@gmail.com
 
