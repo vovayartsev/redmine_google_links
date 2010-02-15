@@ -1,0 +1,13 @@
+= google_links
+
+*Description*: This plugins adds two macros ('gmail' and 'gdoc') to your Redmine Wiki. 
+
+== Examples
+
+*Example 1:* {{gmail("Mike's Dirthday")}} will insert a link to GMail search results page for "Mike's Birthday" query string. 
+
+*Example 2:* {{gdoc("Budget")}} - does the same for Google Docs.
+
+*Note:* the links in the examples above will work just like if you type the words "Budget" or "Mike's Birthday" in GMail/GDoc search field. Pros: everyone who has received the e-mail or has access to the doc can open the link. Cons: you may have several documents with the word "Budget" in the title.
+
+
